@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>المقالات والملاحظات</title>
+    <link>https://maz12211.github.io/notes-and-blogs/</link>
+    <description>موقع أدون فيه ما أعرفه عن أدوات\الأدوات التي استخدمتها لتعديل اللعبة.</description>
+    <language>ar</language>
+    <lastBuildDate>Sun, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>EasyRPG Notes</title>
+      <link>https://maz12211.github.io/notes-and-blogs/posts/EasyRPG-Notes.html</link>
+      <description>Last major page update: 6/1/2024
+Tested on v0.8
+Notes taken during translating/playtesting in an RTL language (in this case Arabic):
+You're expected to know EasyRPG's translation tool before reading this.
+General info
+Putting English text in the middle of an Arabic sentence (or word) anywhere flips the said English text example: CSE instead of ESC, elppa instead of apple, so they have to be reversed.
+Item/Weapon/Armor/Magic Descriptions
+Meaning you have to change the order of words from left-to-right because EasyRPG can't render text from Right-To-Left (except message boxes)
+
+Converting the sentence doesn't work out for RPGM.
+
+Message boxes (when characters speak)
+I'm able to type Arabic normally without reversing anything (!مرحى)
+Code language for the meta.ini
+I didn't playtest this with others a lot, but I'll assume it's correct because it makes sense (and because I got no complaints). the code language for Arabic translations have to be ar as putting for example ar-IQ means only poeple living in Iraq can play it (or I guess only people with their system local set to Arabic Iraq)
+
+Issues (so far)
+RPG_RT.ldb.common texts don't apply for some reason (they're still in English). So far this only happened in LISA The First
+
+Game's font didn't change until I renamed the `Font.ttf` to `Font2.ttf` in the Font folder (shouldn't the former work too?) So far this only happened in LISA The First.</description>
+      <pubDate>2024/6/1</pubDate>
+      <guid>https://maz12211.github.io/notes-and-blogs/posts/EasyRPG-Notes.html</guid>
+    </item>
+    <!--Add more items here-->
+  </channel>
+</rss>
