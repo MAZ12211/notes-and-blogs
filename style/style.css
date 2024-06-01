@@ -3,7 +3,7 @@
    "how to change link color." */
 
 body {
-  background-color: #436a7b;
+  background-color: #323232;
   background-image: url('../images/bg_diamond.png');
 	background-position: top;
   font-size: 18px;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5 {
 
 /*HEADER STYLE*/
 #header {
-  background-color: #384879;
+  background-color: #151515;
   padding: 0 5%;
   border-color: #a9a9a9;
   border-style: ridge;
