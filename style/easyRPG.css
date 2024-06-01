@@ -1,0 +1,47 @@
+body {
+  background-color: #2d631d;
+  background-image: url('../images/bg_diamond.png');
+}
+
+a {
+  color: #008000;
+}
+
+code {
+  background-color: #dfdcdc;
+  color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  color: black;
+}
+
+/*#CONTAINER is the rectangle that contains everything but the background!*/
+#container {
+	background-color: white;
+  color: black;
+  outline-color: green;
+  outline-style: solid;
+  outline-width: 6px;
+}
+
+/*HEADER STYLE*/
+#header {
+  background-color: #202020;
+  border-color: none;
+}
+
+#header li a {
+  color: white;
+  text-decoration: none;
+  background-color: inherit;
+}
+#header li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #008000;
+}
+
+/*DISQUS STYLE*/
+#disqus_thread {
+  margin-top: 1.6em;
+}
