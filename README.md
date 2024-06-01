@@ -1,2 +1,1 @@
-# notes-and-blogs
-Website for posting Arabic translation projects (maybe?)
+Uses [Zonelets](https://zonelets.net/) as a template by Marina Kittaka.
