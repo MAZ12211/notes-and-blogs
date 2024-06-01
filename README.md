@@ -1,6 +1,9 @@
+# موقع ملاحظات ومقالات
+
 ## [الموقع](https://maz12211.github.io/notes-and-blogs/)
 
-# Todos
+### Todos
+
 - [x] A page for EasyRPG notes.
 - [ ] A way for people to track the website's changes (followthatpage?)
 - [ ] A page for Escaped Chasm.
@@ -12,6 +15,6 @@
     Needs an extension to ease the process for me (Name, link button with maybe an option to take the current page's url I'm on, contributor symbol for people to know which ones I've contributed to and which aren't)
 - [ ] A page for ???. (no clue yet)
 
+### Uses [Zonelets](https://zonelets.net/) as a template by Marina Kittaka
 
-### Uses [Zonelets](https://zonelets.net/) as a template by Marina Kittaka.
 ### أستخدمت موقع ZoneLets كقالب من قبل Marina Kittaka
