@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    <atom:link href="https://maz12211.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <title>المقالات والملاحظات</title>
     <link>https://maz12211.github.io/notes-and-blogs/</link>
     <description>موقع أدون فيه ما أعرفه عن أدوات\الأدوات التي استخدمتها لتعديل اللعبة.</description>
     <language>ar</language>
-    <lastBuildDate>Sun, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>EasyRPG Notes</title>
       <link>https://maz12211.github.io/notes-and-blogs/posts/EasyRPG-Notes.html</link>
@@ -29,7 +30,7 @@ Issues (so far)
 RPG_RT.ldb.common texts don't apply for some reason (they're still in English). So far this only happened in LISA The First
 
 Game's font didn't change until I renamed the `Font.ttf` to `Font2.ttf` in the Font folder (shouldn't the former work too?) So far this only happened in LISA The First.</description>
-      <pubDate>2024/6/1</pubDate>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://maz12211.github.io/notes-and-blogs/posts/EasyRPG-Notes.html</guid>
     </item>
     <!--Add more items here-->
