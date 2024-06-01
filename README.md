@@ -1,4 +1,4 @@
-[الموقع](https://maz12211.github.io/notes-and-blogs/)
+## [الموقع](https://maz12211.github.io/notes-and-blogs/)
 
 # Todos
 - [x] A page for EasyRPG notes.
@@ -10,6 +10,5 @@
 - [ ] A page for ???. (no clue yet)
 
 
-Uses [Zonelets](https://zonelets.net/) as a template by Marina Kittaka.
-
-أستخدمت موقع ZoneLets كقالب من قبل Marina Kittaka
+### Uses [Zonelets](https://zonelets.net/) as a template by Marina Kittaka.
+### أستخدمت موقع ZoneLets كقالب من قبل Marina Kittaka
