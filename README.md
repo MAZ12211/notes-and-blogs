@@ -7,7 +7,7 @@
 - [x] A page for EasyRPG notes.
 - [ ] A way for people to track the website's changes (rss)
 - [ ] A page for Escaped Chasm.
-- [ ] A page for LISA The First.
+- [x] A page for LISA The First.
 - [ ] A page for Cry Of Fear (for posting updates.)
 - [ ] A page for Cave Story (for posting updates.)
 - [ ] A page for listing Arabic translation of RPGM games (Misao, witch's house).
