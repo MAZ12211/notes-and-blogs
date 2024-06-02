@@ -5,6 +5,7 @@
 ### Todos
 
 - [x] A page for EasyRPG notes.
+- [ ] A button to open this repo in the page.
 - [ ] A way for people to track the website's changes (rss)
 - [ ] A page for Escaped Chasm.
 - [x] A page for LISA The First.
