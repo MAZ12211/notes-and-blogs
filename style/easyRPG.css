@@ -40,8 +40,3 @@ h1, h2, h3, h4, h5 {
   text-decoration: underline;
   text-decoration-color: #008000;
 }
-
-/*DISQUS STYLE*/
-#disqus_thread {
-  margin-top: 1.6em;
-}

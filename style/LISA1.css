@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(to bottom, #bf0000, #a20035, #730649, #3f1b44, #1a1829);
+  }
+  
+  a {
+    color: blue;
+    font-size: large;
+  }
+  
+  code {
+    background-color: #dfdcdc;
+    color: black;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    color: #4f4886;
+  }
+  
+  /*#CONTAINER is the rectangle that contains everything but the background!*/
+  #container {
+    background-color: black;
+    color: white;
+    outline-color: #4f4886;
+    outline-style: solid;
+    outline-width: 6px;
+  }
+  
+  /*HEADER STYLE*/
+  #header {
+    background-color: rgba(170, 170, 170, 0.1);
+    border-color: none;
+  }
+  
+  #header li a {
+    color: white;
+    text-decoration: none;
+    background-color: inherit;
+  }
+  #header li a:hover {
+    text-decoration-color: #4f4886;
+  }

@@ -5,7 +5,7 @@
 ### Todos
 
 - [x] A page for EasyRPG notes.
-- [ ] A way for people to track the website's changes (followthatpage?)
+- [ ] A way for people to track the website's changes (rss)
 - [ ] A page for Escaped Chasm.
 - [ ] A page for LISA The First.
 - [ ] A page for Cry Of Fear (for posting updates.)

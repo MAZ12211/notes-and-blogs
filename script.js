@@ -31,9 +31,8 @@ let authorLink = "https://x.com/MAZ12211"; // Enter your website, social media, 
   use a date it must still follow that format.*/
 
 let postsArray = [
-// [ "posts/2020-11-10-Special-Characters-Example.html", encodeURI( 'Spéci@l "Character\'s" Examp|e' ) ],
+[ "posts/2020-6-2-LISA-The-First.html", encodeURI('ليسا الأولى') ],
 [ "posts/EasyRPG-Notes.html"]
-// [ "posts/2020-11-10-Post-Template.html", encodeURI('اختبار') ]
 ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -60,9 +59,11 @@ if ( url.includes("posts/") ) {
 }
 
 //Generate the Header HTML, a series of list items containing links.
-let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">الصفحة الرئيسية</a></li>' + 
+let headerHTML = 
+'<ul> <li><a href="' + relativePath + '/index.html">الصفحة الرئيسية</a></li>' +
 '<li><a href="' + relativePath + '/archive.html">المقالات</a></li>' +
-'<li><a href="' + relativePath + '/about.html">عن الموقع</a></li> </ul>';
+'<li><a href="' + relativePath + '/about.html">عن الموقع</a></li> </ul>'
+;
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
@@ -140,7 +141,7 @@ function formatPostLink(i) {
   if (  postDateFormat.test ( postsArray[i][0].slice( 6,17 ) ) ) {
     return '<li><a href="' + relativePath + '/'+ postsArray[i][0] +'">' + postsArray[i][0].slice(6,16) + " \u00BB " + postTitle_i + '</a></li>';
   } else {
-    return '<li><a href="' + relativePath + '/'+ postsArray[i][0] +'">' + postTitle_i + '</a></li>';
+    return '<li><a href="' + relativePath + '/'+ postsArray[i][0] +'">' + postTitle_i + '</a></li><br>';
   }
 }
 
