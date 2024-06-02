@@ -135,6 +135,8 @@ h1, h2, h3, h4, h5 {
 /*DISQUS STYLE*/
 #disqus_thread {
   margin-top: 1.6em;
+  margin-left: 1.6em;
+  margin-right: 1.6em;
 }
 
 /*FOOTER STYLE*/

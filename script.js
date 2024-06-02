@@ -228,3 +228,11 @@ if (document.getElementById("footer")) {
 if (document.title === "Blog Post") {
   document.title = currentPostTitle;
 }
+
+// Disqus comments
+(function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://notes-and-blogs.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
