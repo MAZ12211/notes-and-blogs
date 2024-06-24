@@ -18,38 +18,27 @@
         Last major page update: 6/24/2024<br>
         <span style="color: #2d631d; font-size: small;">v0.8</span>
       </h5>
-        <h2>Notes taken during translating/playtesting in an RTL language (in this case Arabic):</h2>
-        <b>You're expected to know EasyRPG's translation tool before reading this.</b>
+        <h2>Notes taken during translating/playtesting in Arabic:</h2>
+        <b>You're expected to know  <a href="https://easyrpg.org/player/guide/game_translation/" target="_blank" rel="noopener noreferrer">EasyRPG's translation tool</a> before reading this.</b>
         <h3>General info</h3>
 
         <pr>Putting English text in the middle of an Arabic sentence (or word) anywhere flips the said English text
         example: CSE instead of ESC, elppa instead of apple, so they have to be reversed.<pr><br>
         
-        <h3>Item/Weapon/Armor/Magic Descriptions</h3>
-
-        <p>Meaning you have to change the order of words from left-to-right because EasyRPG can't render text from Right-To-Left (except message boxes)</p>
-        <p>Converting the sentence doesn't work out for RPGM.</p>
+        <h3>Item/Weapon/Armor/Magic Descriptions & Meta Description</h3>
+        <p>Change the order of words from left-to-right because EasyRPG can't render text from Right-To-Left (except message boxes)</p>
         
         <h3>Message boxes (when characters speak)</h3>
-        I'm able to type Arabic normally without reversing anything (!مرحى)
+        Type Arabic like you normally would without reversing anything besides English text (!مرحى)
         
-        <h3>Code language for the <code>meta.ini</code></h3>
+        <h3>Code language for <code>meta.ini</code> file</h3>
         <p>I didn't playtest this with others a lot, but I'll assume it's correct because it makes sense (and because I got no complaints).
         the code language for Arabic translations have to be <a href="http://www.lingoes.net/en/translator/langcode.htm" target="_blank">ar</a>
         as putting for example <code>ar-IQ</code> means only poeple living in Iraq can play it (or I guess only people with their system local set to Arabic Iraq)</p>
-        
-        <h3>Issues (so far)</h3>
-        <p><code>RPG_RT.ldb.common</code> texts don't apply for some reason (they're still in English).
-        So far this only happened in LISA The First</p>
-        
-        <p>Game's font didn't change until I renamed the `Font.ttf` to `Font2.ttf` in the Font folder (shouldn't the former work too?)
-        So far this only happened in LISA The First.</p>
-      
-      
-      
+
     <div id="nextprev"></div>
     </div> <!-- end of div id="content" -->
-    <div id="footer"></div>
+    <div dir="rtl" id="footer"></div>
     <div id="disqus_thread"></div>
     </div> <!-- end of div id="container" -->
   <!-- Here's the link to our JavaScript! -->
